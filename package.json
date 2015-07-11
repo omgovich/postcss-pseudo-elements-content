@@ -1,0 +1,37 @@
+{
+  "name": "postcss-pseudo-elements-content",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to automatically add 'content' property in the pseudo-elements (:before and :after)",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "after",
+    "before",
+    "pseudo",
+    "pseudo-elements",
+    "content"
+  ],
+  "author": "Vlad <omgovich@ya.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omgovich/postcss-pseudo-elements-content.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omgovich/postcss-pseudo-elements-content/issues"
+  },
+  "homepage": "https://github.com/omgovich/postcss-pseudo-elements-content",
+  "dependencies": {
+    "postcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.2"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
