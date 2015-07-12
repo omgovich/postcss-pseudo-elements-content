@@ -48,4 +48,18 @@ npm install postcss-pseudo-elements-content --save
 postcss([ require('postcss-pseudo-elements-content') ])
 ```
 
+## Gulp
+
+```js
+var gulp = require('gulp');
+var postcss = require('gulp-postcss');
+var postcssPseudoContent = require('postcss-pseudo-elements-content');
+
+gulp.task('css', function () {
+    return gulp.src('./src/*.css')
+        .pipe( postcss([ postcssPseudoContent ]) )
+        .pipe(gulp.dest('./dest'));
+});
+```
+
 See [PostCSS] docs for examples for your environment.
