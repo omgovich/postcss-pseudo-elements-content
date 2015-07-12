@@ -1,5 +1,6 @@
 var postcss = require('postcss');
 var expect  = require('chai').expect;
+var fs  = require('fs');
 
 var plugin = require('../');
 
@@ -15,10 +16,15 @@ var test = function (input, output, opts, done) {
 
 describe('postcss-pseudo-elements-content', function () {
 
-    /* Write tests here
+    it('should add contend property', function(done) {
 
-    it('does something', function (done) {
-        test('a{ }', 'a{ }', { }, done);
-    });*/
+        var input = fs.readFileSync('./test/test.css', 'utf-8');
+        var expected = fs.readFileSync('./test/expected.css', 'utf-8');
+
+        var output = postcss(plugin()).process(input);
+
+        test(output.css, expected, { }, done);
+
+    });
 
 });

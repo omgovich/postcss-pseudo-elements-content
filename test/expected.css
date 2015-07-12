@@ -1,0 +1,16 @@
+#simple-block:before {
+	display: block;
+	width: 10px;
+	height: 20px;
+	background: yellow;
+	content: '';
+}
+
+.chained .element:after {
+	content: '';
+}
+
+.first-selector:before, .second-selector:after {
+	font-size: 18px;
+	content: '';
+}
