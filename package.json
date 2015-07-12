@@ -1,6 +1,6 @@
 {
   "name": "postcss-pseudo-elements-content",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin to automatically add 'content' property in the pseudo-elements (:before and :after)",
   "keywords": [
     "postcss",
@@ -12,7 +12,7 @@
     "pseudo-elements",
     "content"
   ],
-  "author": "Vlad <omgovich@ya.ru>",
+  "author": "Vlad Shilov <omgovich@ya.ru>",
   "license": "MIT",
   "repository": {
     "type": "git",

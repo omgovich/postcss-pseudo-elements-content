@@ -6,15 +6,33 @@
 [ci-img]:  https://travis-ci.org/omgovich/postcss-pseudo-elements-content.svg
 [ci]:      https://travis-ci.org/omgovich/postcss-pseudo-elements-content
 
+Convert custom pseudo-elements `before-c`/`after-c` into `before`/`after` and add `content: ''` decl.
+
+Before:
+
 ```css
-.foo {
-    /* Input example */
+.block:before-c {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+}
+.chained .block:after-c {
 }
 ```
 
+After:
+
 ```css
-.foo {
-  /* Output example */
+.block:before {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    content: '';
+}
+.chained .block:after {
+    content: '';
 }
 ```
 
