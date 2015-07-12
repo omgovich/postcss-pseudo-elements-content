@@ -1,2 +1,19 @@
-node_modules/
+# IDE and OS
+.idea
+.mc
+.settings
+.subversion
+.buildpath
+.classpath
+.cproject
+.loadpath
+.metadata
+.pmt
+.project
+$RECYCLE.BIN
+.DS_Store
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+node_modules
 npm-debug.log
