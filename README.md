@@ -36,6 +36,12 @@ After:
 }
 ```
 
+## Installation
+
+```
+npm install postcss-pseudo-elements-content --save
+```
+
 ## Usage
 
 ```js
