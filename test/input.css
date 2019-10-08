@@ -1,0 +1,22 @@
+#rule:before-c {
+	display: block;
+	width: 10px;
+	height: 20px;
+	background: yellow;
+}
+
+.empty .chained .element:after-c {
+}
+
+.first-selector:before-c, .second-selector:after-c {
+	font-size: 18px;
+}
+
+.with-own-content:before {
+	content: '>';
+}
+
+/* Comment */
+.other-rule {
+	color: red;
+}
