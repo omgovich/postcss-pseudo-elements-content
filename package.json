@@ -1,7 +1,7 @@
 {
   "name": "postcss-pseudo-elements-content",
   "version": "2.0.0",
-  "description": "PostCSS plugin to automatically add 'content' property in the pseudo-elements (:before and :after)",
+  "description": "PostCSS plugin adds `content: ''` to `:before` and `:after` pseudo-elements",
   "keywords": [
     "postcss",
     "css",
