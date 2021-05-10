@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/omgovich/postcss-pseudo-elements-content",
   "dependencies": {
-    "postcss": "^7.0.6"
+    "postcss": "^8.2.10"
   },
   "devDependencies": {
     "@logux/eslint-config": "^27.0.0",
